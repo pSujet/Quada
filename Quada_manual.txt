@@ -1,0 +1,25 @@
+Command:
+# = number
+a#: set joint 0 of static pose
+b#: set joint 1 of static pose
+c#: set joint 2 of static pose
+u: static pose (initial)
+t#: stop motion at t=#
+R#: set rate = #
+r: run, press x to stop
+
+Indexing:
+l#: select leg=#
+j#: select joint=#
+o#: set offset of selected leg and joint to #
+s#: set scale of selected leg and joint to #%
+
+g#: ...
+
+Array:
+G# # # #: set gait order
+F# # # # # # # # # # # #: set offset array
+
+Print:
+O: print offset array
+S: print scale array

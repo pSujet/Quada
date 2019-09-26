@@ -1,0 +1,7 @@
+{
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328",
+    "programmer": "ArduinoISP",
+    "port": "COM5",
+    "sketch": "Quada.ino"
+}
