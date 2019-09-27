@@ -188,8 +188,7 @@ void setup() {
             Serial.print(">>> ");
             buffer_end = -1;
             do {
-                while (Serial.available() == 0)
-                    ;
+                while (Serial.available() == 0);
                 buffer[++buffer_end] = Serial.read();
                 Serial.print(buffer[buffer_end]);
             } while (buffer[buffer_end] != '\n');
